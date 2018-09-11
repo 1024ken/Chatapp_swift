@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC2F5642147443E00F99040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F5632147443E00F99040 /* AppDelegate.swift */; };
+		7CC2F5692147443E00F99040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F5672147443E00F99040 /* Main.storyboard */; };
+		7CC2F56B2147444000F99040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F56A2147444000F99040 /* Assets.xcassets */; };
+		7CC2F56E2147444000F99040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F56C2147444000F99040 /* LaunchScreen.storyboard */; };
+		7CC2F576214747F100F99040 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F575214747F100F99040 /* GoogleService-Info.plist */; };
+		7CC2F58121474B7D00F99040 /* ownerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57821474B7D00F99040 /* ownerImage.png */; };
+		7CC2F58221474B7D00F99040 /* backgroundChatRooms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57921474B7D00F99040 /* backgroundChatRooms.jpg */; };
+		7CC2F58321474B7D00F99040 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57A21474B7D00F99040 /* background.jpg */; };
+		7CC2F58421474B7D00F99040 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57B21474B7D00F99040 /* 4.png */; };
+		7CC2F58521474B7D00F99040 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57C21474B7D00F99040 /* 2.png */; };
+		7CC2F58621474B7D00F99040 /* backgroundTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57D21474B7D00F99040 /* backgroundTop.jpg */; };
+		7CC2F58721474B7D00F99040 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57E21474B7D00F99040 /* 3.png */; };
+		7CC2F58821474B7D00F99040 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F57F21474B7D00F99040 /* 1.png */; };
+		7CC2F58921474B7D00F99040 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2F58021474B7D00F99040 /* 0.png */; };
+		7CC2F58B2147553E00F99040 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F58A2147553E00F99040 /* LoginViewController.swift */; };
+		7CC2F58D214763A400F99040 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F58C214763A400F99040 /* SelectViewController.swift */; };
+		7CC2F58F21476EC100F99040 /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F58E21476EC100F99040 /* CreateRoomViewController.swift */; };
+		7CC2F5912147775500F99040 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F5902147775500F99040 /* RoomsViewController.swift */; };
+		7CC2F5932147879300F99040 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F5922147879300F99040 /* Post.swift */; };
+		7CC2F59521478A7D00F99040 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F59421478A7D00F99040 /* ChatViewController.swift */; };
+		7CC2F59721479AD000F99040 /* PrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F59621479ACF00F99040 /* PrivateViewController.swift */; };
+		B213124B73583D5C40EAF30B /* Pods_CloudChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7047A77E283CC9B94E2A74F0 /* Pods_CloudChatRoom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0533AADF283132076B3E2546 /* Pods-CloudChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudChatRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom.release.xcconfig"; sourceTree = "<group>"; };
+		7047A77E283CC9B94E2A74F0 /* Pods_CloudChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC2F5602147443E00F99040 /* CloudChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC2F5632147443E00F99040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC2F5682147443E00F99040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC2F56A2147444000F99040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC2F56D2147444000F99040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC2F56F2147444000F99040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC2F575214747F100F99040 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CC2F57821474B7D00F99040 /* ownerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ownerImage.png; sourceTree = "<group>"; };
+		7CC2F57921474B7D00F99040 /* backgroundChatRooms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundChatRooms.jpg; sourceTree = "<group>"; };
+		7CC2F57A21474B7D00F99040 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7CC2F57B21474B7D00F99040 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		7CC2F57C21474B7D00F99040 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7CC2F57D21474B7D00F99040 /* backgroundTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundTop.jpg; sourceTree = "<group>"; };
+		7CC2F57E21474B7D00F99040 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7CC2F57F21474B7D00F99040 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7CC2F58021474B7D00F99040 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		7CC2F58A2147553E00F99040 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CC2F58C214763A400F99040 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		7CC2F58E21476EC100F99040 /* CreateRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomViewController.swift; sourceTree = "<group>"; };
+		7CC2F5902147775500F99040 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		7CC2F5922147879300F99040 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7CC2F59421478A7D00F99040 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7CC2F59621479ACF00F99040 /* PrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateViewController.swift; sourceTree = "<group>"; };
+		90E86498C2F877749D92F964 /* Pods-CloudChatRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudChatRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC2F55D2147443E00F99040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213124B73583D5C40EAF30B /* Pods_CloudChatRoom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130565DB9B8A5D7004371801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E86498C2F877749D92F964 /* Pods-CloudChatRoom.debug.xcconfig */,
+				0533AADF283132076B3E2546 /* Pods-CloudChatRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CC2F5572147443E00F99040 = {
+			isa = PBXGroup;
+			children = (
+				7CC2F5622147443E00F99040 /* CloudChatRoom */,
+				7CC2F5612147443E00F99040 /* Products */,
+				130565DB9B8A5D7004371801 /* Pods */,
+				D733137040948E92EE4655C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC2F5612147443E00F99040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2F5602147443E00F99040 /* CloudChatRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC2F5622147443E00F99040 /* CloudChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2F57721474B7D00F99040 /* images */,
+				7CC2F5632147443E00F99040 /* AppDelegate.swift */,
+				7CC2F58A2147553E00F99040 /* LoginViewController.swift */,
+				7CC2F58C214763A400F99040 /* SelectViewController.swift */,
+				7CC2F58E21476EC100F99040 /* CreateRoomViewController.swift */,
+				7CC2F5902147775500F99040 /* RoomsViewController.swift */,
+				7CC2F59421478A7D00F99040 /* ChatViewController.swift */,
+				7CC2F59621479ACF00F99040 /* PrivateViewController.swift */,
+				7CC2F5672147443E00F99040 /* Main.storyboard */,
+				7CC2F56A2147444000F99040 /* Assets.xcassets */,
+				7CC2F56C2147444000F99040 /* LaunchScreen.storyboard */,
+				7CC2F56F2147444000F99040 /* Info.plist */,
+				7CC2F575214747F100F99040 /* GoogleService-Info.plist */,
+				7CC2F5922147879300F99040 /* Post.swift */,
+			);
+			path = CloudChatRoom;
+			sourceTree = "<group>";
+		};
+		7CC2F57721474B7D00F99040 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2F57821474B7D00F99040 /* ownerImage.png */,
+				7CC2F57921474B7D00F99040 /* backgroundChatRooms.jpg */,
+				7CC2F57A21474B7D00F99040 /* background.jpg */,
+				7CC2F57B21474B7D00F99040 /* 4.png */,
+				7CC2F57C21474B7D00F99040 /* 2.png */,
+				7CC2F57D21474B7D00F99040 /* backgroundTop.jpg */,
+				7CC2F57E21474B7D00F99040 /* 3.png */,
+				7CC2F57F21474B7D00F99040 /* 1.png */,
+				7CC2F58021474B7D00F99040 /* 0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D733137040948E92EE4655C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7047A77E283CC9B94E2A74F0 /* Pods_CloudChatRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC2F55F2147443E00F99040 /* CloudChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC2F5722147444000F99040 /* Build configuration list for PBXNativeTarget "CloudChatRoom" */;
+			buildPhases = (
+				891487D3C6D2D70986C65E1A /* [CP] Check Pods Manifest.lock */,
+				7CC2F55C2147443E00F99040 /* Sources */,
+				7CC2F55D2147443E00F99040 /* Frameworks */,
+				7CC2F55E2147443E00F99040 /* Resources */,
+				2552B6E9FF8586DF347E4E36 /* [CP] Embed Pods Frameworks */,
+				981AE9BA0648EDF5D7138751 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudChatRoom;
+			productName = CloudChatRoom;
+			productReference = 7CC2F5602147443E00F99040 /* CloudChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC2F5582147443E00F99040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "渡辺健一";
+				TargetAttributes = {
+					7CC2F55F2147443E00F99040 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CC2F55B2147443E00F99040 /* Build configuration list for PBXProject "CloudChatRoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC2F5572147443E00F99040;
+			productRefGroup = 7CC2F5612147443E00F99040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC2F55F2147443E00F99040 /* CloudChatRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC2F55E2147443E00F99040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC2F58721474B7D00F99040 /* 3.png in Resources */,
+				7CC2F56E2147444000F99040 /* LaunchScreen.storyboard in Resources */,
+				7CC2F576214747F100F99040 /* GoogleService-Info.plist in Resources */,
+				7CC2F58321474B7D00F99040 /* background.jpg in Resources */,
+				7CC2F58621474B7D00F99040 /* backgroundTop.jpg in Resources */,
+				7CC2F58221474B7D00F99040 /* backgroundChatRooms.jpg in Resources */,
+				7CC2F58421474B7D00F99040 /* 4.png in Resources */,
+				7CC2F58121474B7D00F99040 /* ownerImage.png in Resources */,
+				7CC2F58521474B7D00F99040 /* 2.png in Resources */,
+				7CC2F58821474B7D00F99040 /* 1.png in Resources */,
+				7CC2F58921474B7D00F99040 /* 0.png in Resources */,
+				7CC2F56B2147444000F99040 /* Assets.xcassets in Resources */,
+				7CC2F5692147443E00F99040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2552B6E9FF8586DF347E4E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891487D3C6D2D70986C65E1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudChatRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981AE9BA0648EDF5D7138751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudChatRoom/Pods-CloudChatRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC2F55C2147443E00F99040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC2F59721479AD000F99040 /* PrivateViewController.swift in Sources */,
+				7CC2F58B2147553E00F99040 /* LoginViewController.swift in Sources */,
+				7CC2F58F21476EC100F99040 /* CreateRoomViewController.swift in Sources */,
+				7CC2F5912147775500F99040 /* RoomsViewController.swift in Sources */,
+				7CC2F59521478A7D00F99040 /* ChatViewController.swift in Sources */,
+				7CC2F5932147879300F99040 /* Post.swift in Sources */,
+				7CC2F58D214763A400F99040 /* SelectViewController.swift in Sources */,
+				7CC2F5642147443E00F99040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CC2F5672147443E00F99040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC2F5682147443E00F99040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC2F56C2147444000F99040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC2F56D2147444000F99040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC2F5702147444000F99040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC2F5712147444000F99040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC2F5732147444000F99040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E86498C2F877749D92F964 /* Pods-CloudChatRoom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5APPUD643G;
+				INFOPLIST_FILE = CloudChatRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.CloudChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC2F5742147444000F99040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0533AADF283132076B3E2546 /* Pods-CloudChatRoom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5APPUD643G;
+				INFOPLIST_FILE = CloudChatRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.CloudChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC2F55B2147443E00F99040 /* Build configuration list for PBXProject "CloudChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC2F5702147444000F99040 /* Debug */,
+				7CC2F5712147444000F99040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC2F5722147444000F99040 /* Build configuration list for PBXNativeTarget "CloudChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC2F5732147444000F99040 /* Debug */,
+				7CC2F5742147444000F99040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC2F5582147443E00F99040 /* Project object */;
+}
